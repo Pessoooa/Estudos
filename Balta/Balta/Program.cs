@@ -29,10 +29,12 @@ namespace Balta
             courses.Add(courseOOP);
             courses.Add(courseCsharp);
             courses.Add(courseAspNet);
+            
+            
 
             var careers = new List<Career>();
             var careerDotnet = new Career("Especialista .NET", "especialista-dotnet");
-            var careerItem3 = new CareerItem(2, "OOP", "", courseOOP); // Corrigido para não ser null
+            var careerItem3 = new CareerItem(2, "OOP", "", null); // Corrigido para não ser null
             var careerItem = new CareerItem(1, "Comece por aqui", "", courseCsharp);
             var careerItem2 = new CareerItem(3, "Aprenda .NET", "", courseAspNet);
             careerDotnet.Items.Add(careerItem);
@@ -46,9 +48,12 @@ namespace Balta
                 foreach (var item in career.Items.OrderBy(x => x.Order))
                 {
                     Console.WriteLine($"{item.Order} - {item.Title}");
-                    if (item.Course != null) // Verifica se o curso não é nulo
+                    Console.WriteLine(item.Course?.Title);
+                    Console.WriteLine(item.Course?.Level);
+
+                    foreach (var notification in item.Notifications)
                     {
-                        Console.WriteLine($"Curso: {item.Course.Title}");
+                        Console.WriteLine($"{notification.Property} - {notification.Message}");
                     }
                 }
             }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\willi\\Desktop\\Balta\\Balta\\Balta.csproj",
+      "projectUniqueName": "C:\\Users\\willi\\OneDrive\\Área de Trabalho\\Estudos\\Balta\\Balta\\Balta.csproj",
       "projectName": "Balta",
-      "projectPath": "C:\\Users\\willi\\Desktop\\Balta\\Balta\\Balta.csproj",
+      "projectPath": "C:\\Users\\willi\\OneDrive\\Área de Trabalho\\Estudos\\Balta\\Balta\\Balta.csproj",
       "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\willi\\Desktop\\Balta\\Balta\\obj\\",
+      "outputPath": "C:\\Users\\willi\\OneDrive\\Área de Trabalho\\Estudos\\Balta\\Balta\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
