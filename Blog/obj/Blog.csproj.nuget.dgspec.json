@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\willi\\OneDrive\\Área de Trabalho\\Estudos\\Dapper\\WilliamDataAcess.csproj": {}
+    "C:\\Users\\willi\\OneDrive\\Área de Trabalho\\Blog\\Blog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\willi\\OneDrive\\Área de Trabalho\\Estudos\\Dapper\\WilliamDataAcess.csproj": {
+    "C:\\Users\\willi\\OneDrive\\Área de Trabalho\\Blog\\Blog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\willi\\OneDrive\\Área de Trabalho\\Estudos\\Dapper\\WilliamDataAcess.csproj",
-        "projectName": "WilliamDataAcess",
-        "projectPath": "C:\\Users\\willi\\OneDrive\\Área de Trabalho\\Estudos\\Dapper\\WilliamDataAcess.csproj",
+        "projectUniqueName": "C:\\Users\\willi\\OneDrive\\Área de Trabalho\\Blog\\Blog.csproj",
+        "projectName": "Blog",
+        "projectPath": "C:\\Users\\willi\\OneDrive\\Área de Trabalho\\Blog\\Blog.csproj",
         "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\willi\\OneDrive\\Área de Trabalho\\Estudos\\Dapper\\obj\\",
+        "outputPath": "C:\\Users\\willi\\OneDrive\\Área de Trabalho\\Blog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -46,6 +46,10 @@
             "Dapper": {
               "target": "Package",
               "version": "[2.1.66, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
